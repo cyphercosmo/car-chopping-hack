@@ -1,0 +1,42 @@
+.App {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    height: auto;
+}
+
+.App .time {
+    width: 500px;
+    justify-content: center;
+    display: flex;
+}
+
+.App .status-success {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.App .status-success p {
+    color: green;
+}
+
+.App .status-fail {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.App .status-fail p {
+    color: red;
+}
+
+.App .letters {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+}
