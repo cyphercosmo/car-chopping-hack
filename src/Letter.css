@@ -1,0 +1,21 @@
+.Letter p {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.Letter p.unanswered {
+    border: 1px solid blue;
+    color: blue;
+}
+
+.Letter p.correct {
+    border: 1px solid green;
+    color: green;
+}
+
+.Letter p.incorrect {
+    border: 1px solid red;
+    color: red;
+}
